@@ -1,0 +1,344 @@
+@import url("https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner&family=Lato:wght@300&family=Lobster&family=Pacifico&family=Paytone+One&family=Poppins:ital,wght@0,300;1,100&family=Potta+One&family=Rubik+Moonrocks&family=Splash&display=swap");
+:root {
+    --primary-color: #26643b;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background: #f5fcf4;
+    margin-top: 20px;
+}
+
+main {
+    margin-left: 60px;
+}
+
+
+/* navstyles */
+
+.nav .container {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.nav .container ul {
+    display: flex;
+    list-style-type: none;
+    margin-right: 40px;
+}
+
+.nav .container ul li {
+    margin-right: 50px;
+}
+
+.nav .container ul li a {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+.nav .container ul li a:hover {
+    border-bottom: 2px solid var(--primary-color);
+}
+
+.nav .container ul li .border-a {
+    border: 2px solid var(--primary-color);
+    background-color: var(--primary-color);
+    color: white;
+    padding: 7px 30px;
+    border-radius: 10px;
+}
+
+
+/* End of nav styles */
+
+
+/* .explore menu */
+
+.Explore {
+    margin-top: 100px;
+}
+
+.Explore h1 {
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+
+/* start of our specials menu */
+
+.our_specials {
+    margin-top: 30px;
+}
+
+.dish-img {
+    height: 230px;
+    width: 300px;
+    border-radius: 20px;
+}
+
+.our_specials h1 {
+    padding-bottom: 20px;
+    font-weight: bolder;
+}
+
+.our_specials .container {
+    max-width: 1200px;
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+.our_specials .container .specials-box-dish {
+    display: flex;
+    justify-content: space-between;
+    background: #d6e5d8;
+    border-radius: 15px;
+    padding: 30px 50px 30px 20px;
+}
+
+.our_specials .container .specials-box-dish .text {
+    width: 200px;
+    margin-left: 20px;
+}
+
+.our_specials .container .specials-box-dish .text h3 {
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+
+/* start of top dishes menu  */
+
+.top-dishes {
+    margin-top: 100px;
+}
+
+.top-dish-img {
+    height: 120px;
+    width: 180px;
+    border-radius: 20px;
+}
+
+.top-dishes h2 {
+    padding-bottom: 20px;
+}
+
+.top-dishes .container {
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-dishes .container .box-dish {
+    display: flex;
+    justify-content: space-between;
+    background: #d6e5d8;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.top-dishes .container .box-dish .text {
+    width: 140px;
+    margin-left: 20px;
+}
+
+.breakfast {
+    margin-top: 100px;
+}
+
+.top-dish-img {
+    height: 120px;
+    width: 180px;
+    border-radius: 20px;
+}
+
+.breakfast h2 {
+    padding-bottom: 20px;
+}
+
+.breakfast .container {
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.breakfast .container .box-dish {
+    display: flex;
+    justify-content: space-between;
+    background: #d6e5d8;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.breakfast .container .box-dish .text {
+    width: 140px;
+    margin-left: 20px;
+}
+
+.lower-row {
+    margin-top: 20px;
+    display: flex;
+    gap: 30px;
+}
+
+.Lunch {
+    margin-top: 100px;
+}
+
+.top-dish-img {
+    height: 120px;
+    width: 180px;
+    border-radius: 20px;
+}
+
+.Lunch h2 {
+    padding-bottom: 20px;
+}
+
+.Lunch .container {
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.Lunch .container .box-dish {
+    display: flex;
+    justify-content: space-between;
+    background: #d6e5d8;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.Lunch .container .box-dish .text {
+    width: 140px;
+    margin-left: 20px;
+}
+
+.lower-row {
+    margin-top: 20px;
+    display: flex;
+    gap: 30px;
+}
+
+.Dinner {
+    margin-top: 100px;
+}
+
+.top-dish-img {
+    height: 120px;
+    width: 180px;
+    border-radius: 20px;
+}
+
+.Dinner h2 {
+    padding-bottom: 20px;
+}
+
+.Dinner .container {
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.Dinner .container .box-dish {
+    display: flex;
+    justify-content: space-between;
+    background: #d6e5d8;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.Dinner .container .box-dish .text {
+    width: 140px;
+    margin-left: 20px;
+}
+
+.lower-row {
+    margin-top: 20px;
+    display: flex;
+    gap: 30px;
+}
+
+footer {
+    width: 100%;
+    margin: 150px 0px 0px 00px;
+    background: #d6e5d8;
+}
+
+footer .container {
+    padding: 60px;
+}
+
+footer .container .flex-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 0px;
+}
+
+ol {
+    list-style-type: none;
+}
+
+ol li {
+    margin-top: 20px;
+}
+
+.social-icons ol {
+    display: flex;
+    align-items: center;
+    margin-left: -20px;
+}
+
+a {
+    text-decoration: none;
+    color: #808080;
+    font-weight: bold;
+}
+
+.footer-logo {
+    height: 70px;
+}
+
+.first-column-text {
+    margin-top: 20px;
+}
+
+.first-column {
+    font-size: 20px;
+    margin-top: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.social-icons li {
+    margin-left: 20px;
+    border: 1px solid #808080;
+    /* color: black; */
+    padding: 5px 5px 0px 5px;
+    border-radius: 10px;
+    background-color: lightgray;
+}
+
+.social-icons li a {
+    color: black;
+}
+
+
+/* start of copyright section */
+
+.copywright {
+    margin-left: 100px;
+    padding: 10px;
+}
